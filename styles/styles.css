@@ -23,9 +23,9 @@
   --accent-color: #d4a574;
   --border-color: rgb(250 250 250 / 20%);
 
-  /* fonts — Roboto substituting for cupra-screen */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* fonts — Cupra (loaded via fonts.css) */
+  --body-font-family: cupra, cupra-fallback, sans-serif;
+  --heading-font-family: cupra, cupra-fallback, sans-serif;
 
   /* body sizes (from CUPRA: 16px body, 14px small, 12px xs) */
   --body-font-size-m: 16px;
@@ -63,16 +63,10 @@
   --header-height: var(--nav-height);
 }
 
-/* fallback fonts */
+/* fallback fonts (metrics-adjusted system sans until Cupra loads) */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
-}
-
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
+  font-family: cupra-fallback;
+  size-adjust: 95%;
   src: local('Arial');
 }
 

@@ -34,15 +34,69 @@
     ]
   },
   {
+    "id": "cards-article",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-icon",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-specs",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
     ]
   },
   {
+    "id": "carousel-features",
+    "components": [
+      "carousel-features-item"
+    ]
+  },
+  {
     "id": "carousel",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "columns-comparison",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-info",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {

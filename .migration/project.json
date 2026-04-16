@@ -1,0 +1,10 @@
+{
+  "type": "xwalk",
+  "contentHostUrl": "author-p135360-e1341441.adobeaemcloud.com",
+  "baseUrl": "https://www.cupraofficial.co.uk/electric-and-hybrid",
+  "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
+  "aemSitePath": "/content/vw-demo",
+  "aemAssetsFolderPath": "/content/dam/vw-demo",
+  "aemSiteName": "vw-demo",
+  "aemSiteTitle": "vw-demo"
+}

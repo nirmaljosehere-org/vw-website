@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-icon",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-15T17:14:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.cupraofficial.co.uk/electric-and-hybrid",
+    "originPage": "electric and hybrid overview",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "icon-cta",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "title + text + cta",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["icon-based CTA cards", "feature highlight cards", "action cards with buttons"],
+    "notSuitableFor": ["image-heavy card grids", "article listings", "product spec cards"]
+  },
+  "usage": {
+    "pagesUsing": ["/electric-and-hybrid"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-15T17:14:00.000Z"
+  }
+}

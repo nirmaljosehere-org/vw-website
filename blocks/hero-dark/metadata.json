@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-dark",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-04-15T17:14:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.cupraofficial.co.uk/electric-and-hybrid",
+    "originPage": "electric and hybrid overview",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "page-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + text",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["dark-themed landing pages", "full-bleed hero sections", "automotive overview pages"],
+    "notSuitableFor": ["light background pages", "hero sections with CTA buttons"]
+  },
+  "usage": {
+    "pagesUsing": ["/electric-and-hybrid"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-15T17:14:00.000Z"
+  }
+}

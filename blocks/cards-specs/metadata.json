@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-specs",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-15T17:14:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.cupraofficial.co.uk/electric-and-hybrid",
+    "originPage": "electric and hybrid overview",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "model-specs",
+    "imagePattern": "card-image"
+  },
+  "contentPattern": {
+    "structure": "image + title + specs",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["vehicle model comparison", "product spec cards", "technical specification grids"],
+    "notSuitableFor": ["article listings", "icon-based cards", "simple image galleries"]
+  },
+  "usage": {
+    "pagesUsing": ["/electric-and-hybrid"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-15T17:14:00.000Z"
+  }
+}

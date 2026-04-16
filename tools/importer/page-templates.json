@@ -1,0 +1,136 @@
+{
+  "templates": [
+    {
+      "name": "electric-hybrid-overview",
+      "urls": [
+        "https://www.cupraofficial.co.uk/electric-and-hybrid"
+      ],
+      "description": "Electric and hybrid vehicle overview page with hero, model comparison cards, feature highlights, CTA banners, and informational columns",
+      "blocks": [
+        {
+          "name": "hero-dark",
+          "instances": [".hero-ev"]
+        },
+        {
+          "name": "cards-specs",
+          "instances": [".model-table"]
+        },
+        {
+          "name": "columns-comparison",
+          "instances": [".info-cards.base-container:has(.cmp-info-cards--extended-cards)"]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [".icon-cards"]
+        },
+        {
+          "name": "carousel-features",
+          "instances": [".smooth-vertical-slide"]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".banner.component:has(.cmp-banner__title #title-266dfc4662)",
+            ".banner.component:has(.cmp-banner__title #title-9ce16d5ee3)"
+          ]
+        },
+        {
+          "name": "columns-info",
+          "instances": [
+            ".two-columns:has(#title-510ce9a691)",
+            ".two-columns:has(#title-225ca081de)"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [".info-cards.base-container:has(.cmp-info-cards--mini-cards)"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".hero-ev",
+          "style": null,
+          "blocks": ["hero-dark"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Model Comparison",
+          "selector": ".model-table",
+          "style": "dark",
+          "blocks": ["cards-specs"],
+          "defaultContent": [".cmp-model-table__title h2"]
+        },
+        {
+          "id": "section-3",
+          "name": "EV vs PHEV Comparison",
+          "selector": ".info-cards.base-container:has(.cmp-info-cards--extended-cards)",
+          "style": "dark",
+          "blocks": ["columns-comparison"],
+          "defaultContent": [".cmp-info-cards--extended-cards .cmp-info-cards__top"]
+        },
+        {
+          "id": "section-4",
+          "name": "Find Your EV",
+          "selector": ".icon-cards",
+          "style": "dark",
+          "blocks": ["cards-icon"],
+          "defaultContent": [".cmp-icon-cards__top h2"]
+        },
+        {
+          "id": "section-5",
+          "name": "Advantages",
+          "selector": ".smooth-vertical-slide",
+          "style": "dark",
+          "blocks": ["carousel-features"],
+          "defaultContent": [".cmp-smooth-vertical-slide__top"]
+        },
+        {
+          "id": "section-6",
+          "name": "Test Drive Banner",
+          "selector": ".banner.component:has(.cmp-banner__title #title-266dfc4662)",
+          "style": null,
+          "blocks": ["hero-banner"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "Charging Map and CUPRA Connect",
+          "selector": [
+            ".two-columns:has(#title-510ce9a691)",
+            ".two-columns:has(#title-225ca081de)"
+          ],
+          "style": "dark",
+          "blocks": ["columns-info"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-8",
+          "name": "More EV Info Cards",
+          "selector": ".info-cards.base-container:has(.cmp-info-cards--mini-cards)",
+          "style": "dark",
+          "blocks": ["cards-article"],
+          "defaultContent": [".cmp-info-cards--mini-cards .cmp-info-cards__top h2"]
+        },
+        {
+          "id": "section-9",
+          "name": "FAQs Banner",
+          "selector": ".banner.component:has(.cmp-banner__title #title-9ce16d5ee3)",
+          "style": null,
+          "blocks": ["hero-banner"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-10",
+          "name": "Disclaimer",
+          "selector": ".disclaimer",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [".cmp-disclaimer__text"]
+        }
+      ]
+    }
+  ]
+}

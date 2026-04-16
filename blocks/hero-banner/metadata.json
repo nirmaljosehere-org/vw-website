@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-04-15T17:14:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.cupraofficial.co.uk/electric-and-hybrid",
+    "originPage": "electric and hybrid overview",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "cta-banner",
+    "imagePattern": "background"
+  },
+  "contentPattern": {
+    "structure": "image + heading + text + cta",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["CTA banners with background images", "promotional sections", "call-to-action strips"],
+    "notSuitableFor": ["page hero sections", "image-free banners"]
+  },
+  "usage": {
+    "pagesUsing": ["/electric-and-hybrid"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-15T17:14:00.000Z"
+  }
+}

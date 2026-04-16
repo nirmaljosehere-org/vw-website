@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://www.cupraofficial.co.uk/electric-and-hybrid",
+  "path": "electric-and-hybrid",
+  "timestamp": "2026-04-15T17:38:51.149Z",
+  "title": "Electric and Hybrid | CUPRA UK",
+  "template": "electric-hybrid-overview",
+  "blocks": [
+    "hero-dark",
+    "cards-specs",
+    "columns-comparison",
+    "cards-icon",
+    "carousel-features",
+    "hero-banner",
+    "hero-banner",
+    "columns-info",
+    "columns-info",
+    "cards-article"
+  ]
+}

@@ -1,0 +1,33 @@
+.columns-comparison > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-comparison img {
+  width: 100%;
+}
+
+.columns-comparison > div > div {
+  order: 1;
+}
+
+.columns-comparison > div > .columns-comparison-img-col {
+  order: 0;
+}
+
+.columns-comparison > div > .columns-comparison-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-comparison > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-comparison > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

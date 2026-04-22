@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p139665-e1420034.adobeaemcloud.com/bin/franklin.delivery/nirmaljosehere/vw-demo/main"
+    url: "https://author-p139665-e1420034.adobeaemcloud.com/bin/franklin.delivery/nirmaljosehere/vw-website/main"
     type: "markup"
     suffix: ".html"

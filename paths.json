@@ -1,14 +1,14 @@
 {
   "mappings": [
-    "/content/vw-demo/index:/",
-    "/content/vw-demo/:/index/",
-    "/content/vw-demo/configuration:/.helix/config.json",
-    "/content/vw-demo/metadata:/metadata.json",
-    "/content/vw-demo/redirects:/redirects.json",
-    "/content/vw-demo/placeholders:/placeholders.json"
+    "/content/vw-website/index:/",
+    "/content/vw-website/:/index/",
+    "/content/vw-website/configuration:/.helix/config.json",
+    "/content/vw-website/metadata:/metadata.json",
+    "/content/vw-website/redirects:/redirects.json",
+    "/content/vw-v/placeholders:/placeholders.json"
   ],
   "includes": [
-    "/content/vw-demo/",
-    "/content/dam/vw-demo/"
+    "/content/vw-website/",
+    "/content/dam/vw-website/"
   ]
 }

@@ -1,22 +1,14 @@
 {
   "mappings": [
-    "/content/swisscom-website/language-masters/en:/",
-    "/content/swisscom-website/language-masters/en/:/en/",
-    "/content/swisscom-website/language-masters/fr/:/fr/",
-    "/content/swisscom-website/language-masters/fr:/fr",
-    "/content/swisscom-website/language-masters/es/:/es/",
-    "/content/swisscom-website/language-masters/es:/es",
-    "/content/swisscom-website/language-masters/ja/:/ja/",
-    "/content/swisscom-website/language-masters/ja:/ja",
-    "/content/swisscom-website/language-masters/de/:/de/",
-    "/content/swisscom-website/language-masters/de:/de",
-    "/content/swisscom-website/configuration:/.helix/config.json",
-    "/content/swisscom-website/metadata:/metadata.json",
-    "/content/swisscom-website/redirects:/redirects.json",
-    "/content/swisscom-website/placeholders:/placeholders.json"
+    "/content/vw-demo/index:/",
+    "/content/vw-demo/:/index/",
+    "/content/vw-demo/configuration:/.helix/config.json",
+    "/content/vw-demo/metadata:/metadata.json",
+    "/content/vw-demo/redirects:/redirects.json",
+    "/content/vw-demo/placeholders:/placeholders.json"
   ],
   "includes": [
-    "/content/swisscom-website/",
-    "/content/dam/swisscom-website/"
+    "/content/vw-demo/",
+    "/content/dam/vw-demo/"
   ]
 }

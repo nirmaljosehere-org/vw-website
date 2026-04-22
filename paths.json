@@ -1,0 +1,22 @@
+{
+  "mappings": [
+    "/content/swisscom-website/language-masters/en:/",
+    "/content/swisscom-website/language-masters/en/:/en/",
+    "/content/swisscom-website/language-masters/fr/:/fr/",
+    "/content/swisscom-website/language-masters/fr:/fr",
+    "/content/swisscom-website/language-masters/es/:/es/",
+    "/content/swisscom-website/language-masters/es:/es",
+    "/content/swisscom-website/language-masters/ja/:/ja/",
+    "/content/swisscom-website/language-masters/ja:/ja",
+    "/content/swisscom-website/language-masters/de/:/de/",
+    "/content/swisscom-website/language-masters/de:/de",
+    "/content/swisscom-website/configuration:/.helix/config.json",
+    "/content/swisscom-website/metadata:/metadata.json",
+    "/content/swisscom-website/redirects:/redirects.json",
+    "/content/swisscom-website/placeholders:/placeholders.json"
+  ],
+  "includes": [
+    "/content/swisscom-website/",
+    "/content/dam/swisscom-website/"
+  ]
+}

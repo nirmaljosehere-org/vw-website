@@ -5,7 +5,7 @@
     "/content/vw-website/configuration:/.helix/config.json",
     "/content/vw-website/metadata:/metadata.json",
     "/content/vw-website/redirects:/redirects.json",
-    "/content/vw-v/placeholders:/placeholders.json"
+    "/content/vw-website/placeholders:/placeholders.json"
   ],
   "includes": [
     "/content/vw-website/",
